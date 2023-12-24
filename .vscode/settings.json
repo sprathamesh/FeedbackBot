@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "D:/CentraLogicTraining/Assignments/assignment5/linux"
+    "cmake.sourceDirectory": "D:/CentraLogicTraining/Assignments/assignment5/linux",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

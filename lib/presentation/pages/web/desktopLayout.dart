@@ -145,8 +145,7 @@ class _DesktopLayoutHomeState extends State<DesktopLayoutHome> {
   }
 
   Widget _buildBody() {
-    return Container(
-      constraints: BoxConstraints.expand(),
+    return Expanded(
       child: SingleChildScrollView(
       child: Column(
         children: [
@@ -218,6 +217,7 @@ class _DesktopLayoutHomeState extends State<DesktopLayoutHome> {
                       height: 10.0,
                     ),
                     ListView.builder(
+                      shrinkWrap: true,
                       itemCount:
                           state.messages.length + submittedMessages.length,
                       itemBuilder: (context, index) {
