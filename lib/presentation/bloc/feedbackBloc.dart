@@ -13,7 +13,7 @@ class FeedbackBloc extends Bloc<FeedbackEvent, FeedbackState> {
 
   void _fetchQuestion(FeedbackEvent event, Emitter<FeedbackState> emit) async {
     const apiUrl =
-        'https://sapdos-api.azurewebsites.net/api/Credentials/FeedbackJoiningBot';
+        'https://sapdos-api-v2.azurewebsites.net/api/Credentials/FeedbackJoiningBot';
     final requestBody = {"step": event.step};
     try {
       final response = await http.post(
