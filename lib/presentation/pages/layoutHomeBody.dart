@@ -3,8 +3,8 @@ import 'package:assignment5/presentation/pages/mobile/mobileLayout.dart';
 import 'package:assignment5/presentation/pages/web/desktopLayout.dart';
 
 // SETTING UP LAYOUT SCREEN
-class LayoutHome extends StatelessWidget {
-  const LayoutHome({
+class LayoutHomeBody extends StatelessWidget {
+  const LayoutHomeBody({
     super.key,
   });
 

@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
-
 import 'feedbackEvent.dart';
 import 'feedbackState.dart';
 

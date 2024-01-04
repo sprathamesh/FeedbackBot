@@ -138,10 +138,10 @@ class _DesktopLayoutHomeState extends State<DesktopLayoutHome> {
       submittedMessages.add(_textController.text);
     });
     if (_textController.text.isNotEmpty) {
-      final int step = int.tryParse(_textController.text) ?? 0;//if fal gives 0
+      final int step = int.tryParse(_textController.text) ?? 0;//if false gives 0
       context.read<FeedbackBloc>().add(FeedbackEvent(step: step));//trigger state changes
     }
-    _textController.clear();//cle txt field
+    _textController.clear();//clr txt field
   }
 
   Widget _buildBody() {
